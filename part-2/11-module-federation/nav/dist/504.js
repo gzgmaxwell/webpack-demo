@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknav=self.webpackChunknav||[]).push([[504],{504:(e,t,n)=>{n.r(t),n.d(t,{default:()=>c});const c=()=>{const e=document.createElement("h1");return e.textContent="公共头部内容",e}}}]);

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "iconfont";
+  src: url(./assets/hfWV8YURk7f_zuX6JKgUt.woff) format("woff");
+}
+
+body {
+  background-color: #f9efd4;
+}
+
+.block-bg {
+  background-image: url(./assets/6.jpg) !important;
+}
+
+.icon {
+  font-family: "iconfont";
+  font-size: 30px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 如果不加type，会报错Uncaught SyntaxError: Cannot use import statement outside a module，
+    加上type="module"之后，会报错跨域需要搭建一个本地的http server环境，使用npx拉取一个线上的http server
+    Access to script at 'file:///D:/vscode/WebpackDemo/ECMAScript/add.js' from origin 'null' has been blocked by CORS policy
+    npx可以实现当某一个模块本地不存在时，可以从网上安装一个模块-->
+    <script type="module">
+      import add from "./add.js";
+      console.log(add(1, 2));
+      console.log("hello world");
+    </script>
+  </body>
+</html>

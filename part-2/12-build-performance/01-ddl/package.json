@@ -1,0 +1,22 @@
+{
+  "name": "01-ddl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dll": "webpack --config ./webpack.dll.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "add-asset-html-webpack-plugin": "^5.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3"
+  }
+}
